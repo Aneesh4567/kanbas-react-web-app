@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grades Index Page</title>
+</head>
+<body>
+    <select id="Gradebook-dropdown">
+        <option value="Gradebook">Gradebook</option>
+    </select>
+    <button type="button" id="Import-Gradebook">Import</button>
+    <select id="Export-dropdown">
+        <option value="Export">Export</option>
+    </select>
+    <button type="button" id="Configure-button">Configure</button>
+
+    <h2>Student Names</h2>
+    <input type="text" placeholder="Search Students" id="student-name"/>
+
+    <h2>Assignment Names</h2>
+    <input type="email" placeholder="Search Assignments" id="assignment_name"/>
+
+    <br><button type="button" id="apply-filters-button">Apply Filters</button>
+
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>A1 Setup <br> Out of 100</th>
+                <th>A2 HTML <br> Out of 100</th>
+                <th>A3 CSS <br> Out of 100</th>
+                <th>A4 BOOTSTRAP <br> Out of 100</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice Wonderland</td>
+                <td>98</td>
+                <td>89</td>
+                <td>87</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Princess Leia</td>
+                <td>98</td>
+                <td>80</td>
+                <td>87</td>
+                <td><input type="text" value="100"></td>
+            </tr>
+            <tr>
+                <td>Luke Skywalker</td>
+                <td>98</td>
+                <td>89</td>
+                <td>87</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Han Solo</td>
+                <td>98</td>
+                <td>80</td>
+                <td>87</td>
+                <td><input type="text" value="100"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

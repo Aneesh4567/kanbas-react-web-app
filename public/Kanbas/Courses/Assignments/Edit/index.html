@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment Edit Index File</title>
+</head>
+<body>
+    <select id="Speed-Grader-dropdown">
+        <option value="SpeedGrader">SpeedGrader</option>
+    </select>
+    <hr>
+    <h3>Assignment Name</h3>
+    <input type="text" value="A1 - ENV + HTML">
+    <br><br>
+    <textarea cols="30" rows="3">This is the assignment description</textarea>
+    <p>Points</p>
+    <input type="text" value="100">
+    <p>Assignment Group</p>
+    <select id="Assignment-Group-dropdown">
+        <option value="ASSIGNMENTS-id">ASSIGNMENTS</option>
+    </select>
+
+    <p>Display Grade as</p>
+    <select id="Display-grade-dropdown">
+        <option value="Percentage-id">Percentage</option>
+    </select>
+
+    <p>Submission Type</p>
+    <select id="Submission-Type-dropdown">
+        <option value="Online">Online</option>
+    </select>
+
+    <p>Online Entry Options</p>
+    <input type="checkbox" value="TEXT-ENTRY" name="online-entry-options" id="chkbox-text-entry" />
+    <label for="chkbox-text-entry">Text Entry</label> <br />
+
+    <input type="checkbox" value="Website URL" name="online-entry-options" id="chkbox-website-url" />
+    <label for="chkbox-website-url">Website URL</label> <br />
+
+    <input type="checkbox" value="Media Recordings" name="online-entry-options" id="chkbox-media-recordings" />
+    <label for="chkbox-media-recordings">Media Recordings</label> <br />
+
+    <input type="checkbox" value="Student Annotation" name="online-entry-options" id="chkbox-student-annotation" />
+    <label for="chkbox-student-annotation">Student Annotation</label> <br />
+
+    <input type="checkbox" value="File Uploads" name="online-entry-options" id="chkbox-file-uploads" />
+    <label for="chkbox-file-uploads">File Uploads</label>
+
+    <p>Assign to</p>
+    <input type="text" value="Everyone">
+
+    <p>Due</p>
+    <input type="date" value="2021-01-01">
+
+    <p>Available From</p>
+    <input type="date" value="2021-01-01">
+
+    <p>Until</p>
+    <input type="date" value="2021-01-01">
+    <br><br>
+
+    <button type="button" id="cancel-button">Cancel</button>
+    <button type="button" id="save-button">Save</button>
+
+</body>
+</html>
